@@ -25,19 +25,11 @@ public class NationalLottery
 	public static void createLottoTickets()
 	{
 		int index = 0;
-		/* Begin Test */
-		//One Winner
-		createWiningLottoTicket(index);
-		index++;
-		/*
-		 * Many Winners
-		 * createWiningLottoTicket(index++);
-		 */
-		/* End Test */
+		for(; index < numberOfWinningTickets; index++)
+			createWiningLottoTicket(index);
 		for(; index < drawSize; index++)
 			createLottoTicket(index);
 		ArrayMethods.sortArrayRows(lottoTicketsNumbers);
-
 	}
 	public static void createLottoTicket(int index)
 	{
@@ -145,6 +137,10 @@ public class NationalLottery
 	private static final int numberPickSize = 6;
 	private static final String[] lottoTicketsCodes = new String[drawSize];
 	private static final int[][] lottoTicketsNumbers = new int[drawSize][numberPickSize];
+	/**
+	 * numberOfWinningTickets must always be less than or equal to drawSize
+	 */
+	private static final int numberOfWinningTickets = 1;
 	private static final int numberRangerLowerLimit = 1;
 	private static final int numberRangerUpperLimit = 45;
 	private static final int[] winningNumbers =

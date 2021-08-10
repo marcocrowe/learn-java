@@ -10,7 +10,7 @@ A collection of Java Maven Projects to learn the basics programming with Java.
 ## Recommended IDEs
 - [Apache NetBeans 12.4](https://netbeans.apache.org/)
 - [VS Code](https://code.visualstudio.com/)
-	- [Working with C#](https://code.visualstudio.com/Docs/languages/csharp)
+	- [Working with Java](https://code.visualstudio.com/docs/languages/java)
 
 ## Recommended Online IDEs
 - [GitPod](https://gitpod.io/)
