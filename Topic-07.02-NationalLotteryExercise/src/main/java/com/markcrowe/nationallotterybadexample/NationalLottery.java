@@ -8,27 +8,17 @@ import java.util.Random;
 public class NationalLottery
 {
 	private static final int drawSize = 50000;
-
 	public static void main(String[] args)
 	{
-		//
 		//  Step 1
-		//
 		NationalLottery.CreateLottoTickets();
-		//
 		//  Step 2
-		//
 		NationalLottery.DisplayTickets();
-		//
 		//  Step 4
-		//
 		NationalLottery.NumberAnalysisRunAndPrint();
-		//
 		//  Step 3
-		//
 		NationalLottery.FindAndDisplayWinners();
 	}
-
 	public static void CreateLottoTickets()
 	{
 		int index = 0;
@@ -58,10 +48,9 @@ public class NationalLottery
 	}
 	public static String CreateLottoTicketCode()
 	{
-		String output = new String();
+		String output = "";
 		int digitNumber = 2;
 		int characterNumber = 4;
-
 		for(int index = 0; index < digitNumber; index++)
 		{
 			int candiateElement = (new Random()).nextInt(10);
@@ -70,7 +59,6 @@ public class NationalLottery
 		for(int index = 0; index < characterNumber; index++)
 		{
 			int charIndex = new Random().nextInt(characterCode.length);
-
 			String candiateElement = characterCode[charIndex];
 			output += candiateElement;
 		}
@@ -81,7 +69,6 @@ public class NationalLottery
 		for(int index = 0; index < numberPickSize;)
 		{
 			int candiateElement = Support.RandomNextIntFrom(numberRangerLowerLimit, numberRangerUpperLimit);
-
 			if(Support.ArrayElementsAreUnique(lottoTicketsNumbers, rowIndex, candiateElement, index))
 			{
 				lottoTicketsNumbers[rowIndex][index] = candiateElement;
@@ -92,11 +79,9 @@ public class NationalLottery
 	private static void CreateWiningLottoTicket(int rowIndex)
 	{
 		lottoTicketsCodes[rowIndex] = CreateLottoTicketCode();
-
 		for(int index = 0; index < numberPickSize; index++)
 		{
 			int candiateElement = winningNumbers[index];
-
 			lottoTicketsNumbers[rowIndex][index] = candiateElement;
 		}
 		/*
@@ -108,7 +93,6 @@ public class NationalLottery
 		 * lottoTicketsNumbers[rowIndex][4] = temp;
 		 */
 	}
-
 	public static void DisplayTickets()
 	{
 		System.out.println("Displaying Tickets");
@@ -116,40 +100,32 @@ public class NationalLottery
 		//System.out.print(Support.ArraysToString(lottoTicketsCodes, lottoTicketsNumbers, drawSize, numberPickSize));
 		System.out.println();
 	}
-
 	public static void FindAndDisplayWinners()
 	{
-		String output = new String();
-
+		String output = "";
 		for(int index = 0; index < drawSize; index++)
 		{
 			if(TicketHasWon(index))
 			{
-				output += Support.ArraysDiminsion2ToString(lottoTicketsCodes, lottoTicketsNumbers, index, numberPickSize) + "\n";
-
+				output += Support.ArraysDimension2ToString(lottoTicketsCodes, lottoTicketsNumbers, index, numberPickSize) + "\n";
 			}
 		}
-
 		if(output.equals(""))
 			output = "There are no winners" + "\n";
 		else
 			output = ("The following tickets have won" + "\n") + output;
-
 		System.out.print(output);
 		System.out.println();
 	}
 	public static boolean TicketHasWon(int rowIndex)
 	{
-
 		for(int index = 0; index < numberPickSize; index++)
 		{
 			if(lottoTicketsNumbers[rowIndex][index] != winningNumbers[index])
 				return false;
 		}
-
 		return true;
 	}
-
 	public static void NumberAnalysis(int[] analysis)
 	{
 		for(int ticketIndex = 0; ticketIndex < drawSize; ticketIndex++)
@@ -157,20 +133,17 @@ public class NationalLottery
 			for(int numberIndex = 0; numberIndex < numberPickSize; numberIndex++)
 			{
 				int number = lottoTicketsNumbers[ticketIndex][numberIndex];
-
 				analysis[number - 1] += 1;
 			}
 		}
 	}
 	public static String NumberAnalysisPrint(int[] analysis)
 	{
-		String outString = new String();
-
+		String outString = "";
 		for(int index = 0; index < analysis.length; index++)
 		{
 			outString += (index + 1) + " was drawn " + analysis[index] + " times" + "\n";
 		}
-
 		return outString;
 
 	}
@@ -183,12 +156,9 @@ public class NationalLottery
 		System.out.println();
 
 	}
-
 	private static final int numberPickSize = 6;
-
 	private static final int numberRangerLowerLimit = 1;
 	private static final int numberRangerUpperLimit = 45;
-
 	private static final String[] lottoTicketsCodes = new String[drawSize];
 	private static final int[][] lottoTicketsNumbers = new int[drawSize][numberPickSize];
 	private static final int[] winningNumbers =

@@ -8,46 +8,39 @@ import java.util.Random;
 
 public class Support
 {
-	public static String ArraysToString(String[] stringArray, int[][] array, int diminsion1Length, int diminsion2Length)
+	public static String ArraysToString(String[] stringArray, int[][] array, int dimension1Length, int dimension2Length)
 	{
-		String outString = new String();
-
-		for(int index = 0; index < diminsion1Length; index++)
+		String outString = "";
+		for(int index = 0; index < dimension1Length; index++)
 		{
-			outString += ArraysDiminsion2ToString(stringArray, array, index, diminsion2Length) + "\n";
+			outString += ArraysDimension2ToString(stringArray, array, index, dimension2Length) + "\n";
 		}
-
 		return outString;
 	}
-	public static String ArraysDiminsion2ToString(String[] stringArray, int[][] array, int diminsion1, int diminsion2Length)
+	public static String ArraysDimension2ToString(String[] stringArray, int[][] array, int dimension1, int dimension2Length)
 	{
-		String outString = new String();
-
-		outString += stringArray[diminsion1] + "\t";
-
-		for(int index = 0; index < diminsion2Length; index++)
+		String outString = "";
+		outString += stringArray[dimension1] + "\t";
+		for(int index = 0; index < dimension2Length; index++)
 		{
-			outString += array[diminsion1][index] + "\t";
+			outString += array[dimension1][index] + "\t";
 		}
-
 		return outString;
 	}
-	public static void ArraysToOut(String[] stringArray, int[][] array, int diminsion1Length, int diminsion2Length)
+	public static void ArraysToOut(String[] stringArray, int[][] array, int dimension1Length, int dimension2Length)
 	{
-		for(int index = 0; index < diminsion1Length; index++)
+		for(int index = 0; index < dimension1Length; index++)
 		{
-			ArraysDiminsion2ToOut(stringArray, array, index, diminsion2Length);
+			ArraysDimension2ToOut(stringArray, array, index, dimension2Length);
 			System.out.println();
 		}
 	}
-	public static void ArraysDiminsion2ToOut(String[] stringArray, int[][] array, int diminsion1, int diminsion2Length)
+	public static void ArraysDimension2ToOut(String[] stringArray, int[][] array, int dimension1, int dimension2Length)
 	{
-
-		System.out.print(stringArray[diminsion1] + "\t");
-
-		for(int index = 0; index < diminsion2Length; index++)
+		System.out.print(stringArray[dimension1] + "\t");
+		for(int index = 0; index < dimension2Length; index++)
 		{
-			System.out.print(array[diminsion1][index] + "\t");
+			System.out.print(array[dimension1][index] + "\t");
 		}
 	}
 	public static void SortArrayRowNumbers(int[][] array)
@@ -61,12 +54,12 @@ public class Support
 		int number = random.nextInt(maxium) + minium;
 		return number;
 	}
-	public static boolean ArrayElementsAreUnique(int[][] array, int rowIndex, int candiateElement, int upperLimit)
+	public static boolean ArrayElementsAreUnique(int[][] array, int rowIndex, int candidateElement, int upperLimit)
 	{
 		boolean result = true;
 		for(int index = 0; index < upperLimit; index++)
 		{
-			if(candiateElement == array[rowIndex][index])
+			if(candidateElement == array[rowIndex][index])
 			{
 				result = false;
 				break;

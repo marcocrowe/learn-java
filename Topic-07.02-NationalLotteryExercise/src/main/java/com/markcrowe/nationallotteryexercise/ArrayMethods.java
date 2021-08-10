@@ -17,10 +17,10 @@ public class ArrayMethods
 		}
 		return true;
 	}
-	public static int randomNextIntFrom(int minium, int maxim)
+	public static int randomNextIntFrom(int minimum, int maxim)
 	{
 		Random random = new Random();
-		return random.nextInt(maxim) + minium;
+		return random.nextInt(maxim) + minimum;
 	}
 	public static void sortArrayRows(int[][] array)
 	{
@@ -32,7 +32,6 @@ public class ArrayMethods
 		StringBuilder builder = new StringBuilder(stringArray[dimension1] + "\t");
 		for(int index = 0; index < dimension2Length; index++)
 			builder.append(array[index]).append("\t");
-
 		return builder.toString();
 	}
 	public static String toString(String[] stringArray, int[][] array, int dimension1Length, int dimension2Length)
@@ -40,7 +39,6 @@ public class ArrayMethods
 		StringBuilder builder = new StringBuilder();
 		for(int index = 0; index < dimension1Length; index++)
 			builder.append(ArrayMethods.toString(stringArray, array[index], index, dimension2Length)).append("\n");
-
 		return builder.toString();
 	}
 	public static void toSystemOut(String[] stringArray, int[] array, int dimension1, int dimension2Length)

@@ -2,6 +2,21 @@
 
 A collection of Java Maven Projects to learn the basics programming with Java.
 
+## Requirements
+- [Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+- [Java SE Development Kit 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+
+## Recommended IDEs
+- [Apache NetBeans 12.4](https://netbeans.apache.org/)
+- [VS Code](https://code.visualstudio.com/)
+	- [Working with C#](https://code.visualstudio.com/Docs/languages/csharp)
+
+## Recommended Online IDEs
+- [GitPod](https://gitpod.io/)
+- [JDoodle](https://www.jdoodle.com/online-java-compiler/)
+- [GDB Online](https://www.onlinegdb.com/online_java_compiler)
+
 ## Projects
 1. Hello World
 2. Variables
