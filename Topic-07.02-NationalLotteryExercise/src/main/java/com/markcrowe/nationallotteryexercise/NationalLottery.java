@@ -17,7 +17,7 @@ public class NationalLottery
 	/* Methods */
 	public static String buildNumberAnalysisReport(int[] analysis)
 	{
-		StringBuilder builder = new StringBuilder();
+		final var builder = new StringBuilder();
 		for(int index = 0; index < analysis.length; index++)
 			builder.append(index + 1).append(" was drawn ").append(analysis[index]).append(" times\n");
 		return builder.toString();
@@ -29,44 +29,44 @@ public class NationalLottery
 			createWiningLottoTicket(index);
 		for(; index < drawSize; index++)
 			createLottoTicket(index);
-		ArrayMethods.sortArrayRows(lottoTicketsNumbers);
+		ArrayMethods.sortArrays(lottoTicketsNumbers);
 	}
-	public static void createLottoTicket(int index)
+	public static void createLottoTicket(final int index)
 	{
 		lottoTicketsCodes[index] = createLottoTicketCode();
 		createLottoTicketNumbers(index);
 	}
 	public static String createLottoTicketCode()
 	{
-		StringBuilder builder = new StringBuilder();
-		int digitNumber = 2;
-		int characterNumber = 4;
+		final var builder = new StringBuilder();
+		final int digitNumber = 2;
+		final int characterNumber = 4;
 		for(int index = 0; index < digitNumber; index++)
 		{
-			int candidateElement = (new Random()).nextInt(10);
+			final int candidateElement = (new Random()).nextInt(10);
 			builder.append(candidateElement);
 		}
 		for(int index = 0; index < characterNumber; index++)
 		{
-			int charIndex = new Random().nextInt(characterCodes.length);
-			String candidateElement = characterCodes[charIndex];
+			final int charIndex = new Random().nextInt(characterCodes.length);
+			final String candidateElement = characterCodes[charIndex];
 			builder.append(candidateElement);
 		}
 		return builder.toString();
 	}
-	public static void createLottoTicketNumbers(int rowIndex)
+	public static void createLottoTicketNumbers(final int rowIndex)
 	{
-		for(int index = 0; index < numberPickSize; )
+		for(int index = 0; index < numberPickSize;)
 		{
-			int candidateElement = ArrayMethods.randomNextIntFrom(numberRangerLowerLimit, numberRangerUpperLimit);
-			if(ArrayMethods.isElementUnique(lottoTicketsNumbers, rowIndex, candidateElement, index))
+			final int candidateElement = ArrayMethods.randomNextIntFrom(numberRangerLowerLimit, numberRangerUpperLimit);
+			if(ArrayMethods.isElementUnique(lottoTicketsNumbers[rowIndex], candidateElement, index))
 			{
 				lottoTicketsNumbers[rowIndex][index] = candidateElement;
 				index++;
 			}
 		}
 	}
-	public static void createWiningLottoTicket(int ticketIndex)
+	public static void createWiningLottoTicket(final int ticketIndex)
 	{
 		lottoTicketsCodes[ticketIndex] = createLottoTicketCode();
 		System.arraycopy(winningNumbers, 0, lottoTicketsNumbers[ticketIndex], 0, numberPickSize);
@@ -87,7 +87,7 @@ public class NationalLottery
 	}
 	public static void findAndDisplayWinners()
 	{
-		StringBuilder builder = new StringBuilder();
+		final var builder = new StringBuilder();
 		for(int ticketIndex = 0; ticketIndex < drawSize; ticketIndex++)
 		{
 			if(isWinningTicket(ticketIndex))
@@ -100,7 +100,7 @@ public class NationalLottery
 		System.out.print(builder);
 		System.out.println();
 	}
-	public static boolean isWinningTicket(int ticketIndex)
+	public static boolean isWinningTicket(final int ticketIndex)
 	{
 		for(int index = 0; index < numberPickSize; index++)
 		{
@@ -111,13 +111,13 @@ public class NationalLottery
 	}
 	public static void runAndPrintNumberAnalysis()
 	{
-		int[] analysis = new int[numberRangerUpperLimit];
+		final int[] analysis = new int[numberRangerUpperLimit];
 		runNumberAnalysis(analysis);
 		System.out.println("Number Analysis");
 		System.out.print(buildNumberAnalysisReport(analysis));
 		System.out.println();
 	}
-	public static void runNumberAnalysis(int[] analysis)
+	public static void runNumberAnalysis(final int[] analysis)
 	{
 		for(int ticketIndex = 0; ticketIndex < drawSize; ticketIndex++)
 		{
@@ -130,9 +130,9 @@ public class NationalLottery
 	}
 	/* Fields */
 	private static final String[] characterCodes =
-			{
-					"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
-			};
+	{
+		"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+	};
 	private static final int drawSize = 50;//00;
 	private static final int numberPickSize = 6;
 	private static final String[] lottoTicketsCodes = new String[drawSize];
@@ -144,7 +144,7 @@ public class NationalLottery
 	private static final int numberRangerLowerLimit = 1;
 	private static final int numberRangerUpperLimit = 45;
 	private static final int[] winningNumbers =
-			{
-					4, 10, 23, 36, 40, 42
-			};
+	{
+		4, 10, 23, 36, 40, 42
+	};
 }

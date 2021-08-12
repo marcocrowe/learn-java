@@ -2,7 +2,11 @@ package com.markcrowe.learntocode;
 
 public class ComputeChange
 {
-
+	public static void main(final String[] args)
+	{
+		var computeChange = new ComputeChange();
+		computeChange.output(computeChange.computer(788));
+	}
 	/**
 	 * coin Denominations sorted in descending order
 	 */
@@ -13,9 +17,10 @@ public class ComputeChange
 
 	public int[] computer(int amountCents)
 	{
-		int[] coinsCount = new int[coinDenominations.length];
+		final int[] coinsCount = new int[coinDenominations.length];
 
-		for(int index = 0; index < this.coinDenominations.length; index++)		{
+		for(int index = 0; index < this.coinDenominations.length; index++)
+		{
 			coinsCount[index] = amountCents / coinDenominations[index];
 			// amountCents = amountCents - (coinsCount[index]*coinDenominations[index]);
 			amountCents = amountCents % coinDenominations[index];
@@ -24,22 +29,14 @@ public class ComputeChange
 
 	}
 
-	public void output(int[] coinsCount)
+	public void output(final int[] coinsCount)
 	{
 		for(int index = 0; index < coinsCount.length; index++)
 		{
 			if(index < 2)
-				System.out.println(coinsCount[index] + " �" + (coinDenominations[index] / 100) + "coins");
+				System.out.println(coinsCount[index] + " €" + (coinDenominations[index] / 100) + "coins");
 			else
 				System.out.println(coinsCount[index] + " " + (coinDenominations[index]) + "cent coins");
 		}
 	}
-
-	public static void main(String[] args)
-	{
-		ComputeChange computeChange = new ComputeChange();
-		computeChange.output(computeChange.computer(788));
-
-	}
-
 }

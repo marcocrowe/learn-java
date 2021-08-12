@@ -8,46 +8,54 @@ import java.util.Random;
 
 public class ArrayMethods
 {
-	public static boolean isElementUnique(int[][] array, int rowIndex, int candidateElement, int upperLimit)
+
+	/**
+	 * Check the `array` for candidateElement from 0 to upperLimit
+	 * @param array The array to check
+	 * @param candidateElement The element to check for
+	 * @param upperLimit The upper limit of the array
+	 * @return `true` if the element is found in the array.
+	 */
+	public static boolean isElementUnique(int[] array, final int candidateElement, final int upperLimit)
 	{
 		for(int index = 0; index < upperLimit; index++)
 		{
-			if(candidateElement == array[rowIndex][index])
+			if(candidateElement == array[index])
 				return false;
 		}
 		return true;
 	}
-	public static int randomNextIntFrom(int minimum, int maxim)
+	public static int randomNextIntFrom(final int minimum, final int maximum)
 	{
 		Random random = new Random();
-		return random.nextInt(maxim) + minimum;
+		return random.nextInt(maximum) + minimum;
 	}
-	public static void sortArrayRows(int[][] array)
+	public static void sortArrays(final int[][] arrays)
 	{
-		for(int[] row : array)
-			Arrays.sort(row);
+		for(int[] array : arrays)
+			Arrays.sort(array);
 	}
-	public static String toString(String[] stringArray, int[] array, int dimension1, int dimension2Length)
+	public static String toString(final String[] stringArray, final int[] array, final int dimension1, final int dimension2Length)
 	{
-		StringBuilder builder = new StringBuilder(stringArray[dimension1] + "\t");
+		final var builder = new StringBuilder(stringArray[dimension1] + "\t");
 		for(int index = 0; index < dimension2Length; index++)
 			builder.append(array[index]).append("\t");
 		return builder.toString();
 	}
-	public static String toString(String[] stringArray, int[][] array, int dimension1Length, int dimension2Length)
+	public static String toString(final String[] stringArray, final int[][] array, final int dimension1Length, final int dimension2Length)
 	{
-		StringBuilder builder = new StringBuilder();
+		final var builder = new StringBuilder();
 		for(int index = 0; index < dimension1Length; index++)
 			builder.append(ArrayMethods.toString(stringArray, array[index], index, dimension2Length)).append("\n");
 		return builder.toString();
 	}
-	public static void toSystemOut(String[] stringArray, int[] array, int dimension1, int dimension2Length)
+	public static void toSystemOut(final String[] stringArray, final int[] array, final int dimension1, final int dimension2Length)
 	{
 		System.out.print(stringArray[dimension1] + "\t");
 		for(int index = 0; index < dimension2Length; index++)
 			System.out.print(array[index] + "\t");
 	}
-	public static void toSystemOut(String[] stringArray, int[][] array, int dimension1Length, int dimension2Length)
+	public static void toSystemOut(final String[] stringArray, final int[][] array, final int dimension1Length, final int dimension2Length)
 	{
 		for(int index = 0; index < dimension1Length; index++)
 		{
