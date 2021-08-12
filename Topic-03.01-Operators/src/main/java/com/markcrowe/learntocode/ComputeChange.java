@@ -1,4 +1,4 @@
-package com.markcrowe;
+package com.markcrowe.learntocode;
 
 // ComputeChange.java: Break down an amount into smaller units
 import javax.swing.*;

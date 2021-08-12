@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2021 Mark Crowe <https://github.com/markcrowe-com>. All rights reserved.
  */
-package com.markcrowe;
+package com.markcrowe.learntocode;
 
 import java.util.Scanner;
 

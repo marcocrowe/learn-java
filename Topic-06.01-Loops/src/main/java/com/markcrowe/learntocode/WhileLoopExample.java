@@ -1,17 +1,19 @@
 /*
  * Copyright (c) 2021 Mark Crowe <https://github.com/markcrowe-com>. All rights reserved.
  */
-package com.markcrowe;
+package com.markcrowe.learntocode;
 
-public class ForLoopExample
+public class WhileLoopExample
 {
 	public static void main(String[] args)
 	{
-		System.out.println("A for loop example.");
+		System.out.println("A while loop example.");
 
-		for(int counter = 1; counter <= 5; counter++)
+		int counter = 1;
+		while(counter <= 5)
 		{
 			System.out.println("Counter: " + counter);
+			counter++;
 		}
 	}
 }
