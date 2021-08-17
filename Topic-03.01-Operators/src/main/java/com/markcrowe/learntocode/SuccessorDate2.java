@@ -2,7 +2,7 @@ package com.markcrowe.learntocode;
 
 import javax.swing.JOptionPane;
 
-public class SucessorDate2
+public class SuccessorDate2
 {
 	public static int getDaysInMonth(int month, int year)
 	{

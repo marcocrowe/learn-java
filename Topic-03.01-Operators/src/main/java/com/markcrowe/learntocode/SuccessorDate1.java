@@ -2,9 +2,8 @@ package com.markcrowe.learntocode;
 
 import javax.swing.JOptionPane;
 
-public class SucessorDate1
+public class SuccessorDate1
 {
-
 	public static void main(String[] args)
 	{
 		String inputDay = JOptionPane.showInputDialog("Enter Day");

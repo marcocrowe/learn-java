@@ -1,0 +1,1 @@
+/* * Copyright (c) 2021 Mark Crowe <https://github.com/markcrowe-com>. All rights reserved. */package com.markcrowe.learntocode;public class AllOnOneLineHelloWorldExample{public static void main(String[] args){System.out.print("One Line: Hello World Example.");}}

@@ -7,6 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<modules>
 		<module>Topic-01.01-HelloWorld</module>
+		<module>Topic-01.02-MoreHelloWorlds</module>
 		<module>Topic-02.01-Variables</module>
 		<module>Topic-02.02-VariableDataTypes</module>
 		<module>Topic-02.03-Inputs</module>
@@ -16,13 +17,18 @@
 		<module>Topic-04.01-IfElse</module>
 		<module>Topic-05.01-Switch</module>
 		<module>Topic-06.01-Loops</module>
+		<module>Topic-06.02-Loops</module>
 		<module>Topic-07.01-Arrays</module>
-		<module>Topic-07.02-NationalLotteryExercise</module>
+		<module>Topic-07.02-SortingArrays</module>
+		<module>Topic-07.03-MultidimensionalArrays</module>
+		<module>Topic-07.04-NationalLotteryExercise</module>
 		<module>Topic-08.01-Methods</module>
 		<module>Topic-09.01-Objects</module>
 		<module>Topic-10.02-TypingTutorExercise</module>
 	</modules>
 	<properties>
+		<maven.compiler.source>16</maven.compiler.source>
+		<maven.compiler.target>16</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 </project>
