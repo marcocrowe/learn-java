@@ -4,11 +4,11 @@ A collection of Java Maven Projects to learn the basics programming with Java.
 
 ## Requirements
 - [Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
-- [Java SE Development Kit 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Java SE Development Kit 16](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
 
 ## Recommended IDEs
-- [Apache NetBeans 12.4](https://netbeans.apache.org/)
+- [Apache NetBeans 12.4](https://netbeans.apache.org/download/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 - [VS Code](https://code.visualstudio.com/)
 	- [Working with Java](https://code.visualstudio.com/docs/languages/java)
 
