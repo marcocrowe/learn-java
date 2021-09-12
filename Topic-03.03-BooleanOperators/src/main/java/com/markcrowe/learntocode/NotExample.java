@@ -12,10 +12,8 @@ public class NotExample
 		System.out.println("In Java the 'NOT' operator is written as '!'");
 		System.out.println();
 
-		final boolean True = true;
-		final boolean False = false;
-		System.out.println("Input -> Result");
-		System.out.println("!" + True + " -> " + !True);
-		System.out.println("!" + False + " -> " + !False);
+		System.out.println("Input  -> Result");
+		System.out.println("!" + true + "  -> " + !true);
+		System.out.println("!" + false + " -> " + !false);
 	}
 }

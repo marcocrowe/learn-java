@@ -12,12 +12,10 @@ public class XOrExample
 		System.out.println("In Java the 'XOR' operator is written as '^'");
 		System.out.println();
 
-		final boolean True = true;
-		final boolean False = false;
-		System.out.println("InputA ^ InputB -> Result");
-		System.out.println(True + " ^ " + True + " -> " + (True ^ True));
-		System.out.println(True + " ^ " + False + " -> " + (True ^ False));
-		System.out.println(False + " ^ " + True + " -> " + (False ^ True));
-		System.out.println(False + " ^ " + False + " -> " + (False ^ False));
+		System.out.println("  A   ^   B   -> Result");
+		System.out.println(true + "  ^ " + true + "  -> " + (true ^ true));
+		System.out.println(true + "  ^ " + false + " -> " + (true ^ false));
+		System.out.println(false + " ^ " + true + "  -> " + (false ^ true));
+		System.out.println(false + " ^ " + false + " -> " + (false ^ false));
 	}
 }
