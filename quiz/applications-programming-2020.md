@@ -42,12 +42,12 @@ interface ArrayOperation<T>
 
 ### Answer
 
-For `arrayOperation1` with `numbers = {1, 2, 3, 25, 30, 35, 40, 45, 50, 55}`
+arrayOperation2 excutes `number <= doIt(numbers, arrayOperation1)`.  `numbers` defined in `Test.main` as `{1, 2, 3, 25, 30, 35, 40, 45, 50, 55}`.  For `arrayOperation1` with `numbers = {1, 2, 3, 25, 30, 35, 40, 45, 50, 55}`  
 
-Only `30` and `45` have factors of 3 and 5, so the result is `2`.
+Only `30` and `45` have factors of 3 and 5, so the result is `2`.  
 
-For `arrayOperation2` with `numbers = {1, 2, 3, 25, 30, 35, 40, 45, 50, 55}` only adds to the `count` if the number in numbers is `<=` `arrayOperation1` result of `2`.
+For `arrayOperation2` with `numbers = {1, 2, 3, 25, 30, 35, 40, 45, 50, 55}` only adds to the `count` if the number in numbers is `<=` `arrayOperation1` result of `2`.  
 
-Only `1, 2` are `<= 2` so the result is `2`.
+Only `1, 2` are `<= 2` so the result is `2`.  
 
-The answer is: 2
+The answer is: 2  
