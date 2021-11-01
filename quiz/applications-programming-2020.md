@@ -28,7 +28,7 @@ public class Test
         int count = 0;
         for(T value : array)
         {
-            if(arrayOperation.doIt(value))
+            if(arrayOperation.test(value))
                 ++count;
         }
         return count;
