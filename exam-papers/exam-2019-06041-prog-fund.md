@@ -57,7 +57,7 @@ The use of programmable or text storing calculators is expressly forbidden.
 
 ## Question 1 (Total Marks 40)
 
-**Q 1 (a)								  	  [5 Marks]**
+### Question 1 (a) [5 Marks]
 
 The following program writes a name to the screen three times.
 
@@ -86,6 +86,19 @@ Suzanne
 Suzanne
 Suzanne
 ```
+
+#### Question 1 (a) Answer
+
+
+```java
+//...
+String name = "Suzanne";//JOptionPane.showInputDialog("Enter person’s name");
+int limit = 15;
+for(int number = 0; number < limit; number++)
+    System.out.println(name);
+//...
+```
+
 
 **….**
 
