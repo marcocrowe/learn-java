@@ -130,6 +130,18 @@ What is the syntax of if/else statement?
 
 #### Question 1 (d) Answer
 
+The syntax of an if/else statement is as follows:
+
+```java
+//...
+if (condition == true) {
+    // code to execute if the condition is true
+} else {
+    // code to execute if the condition is false
+}
+//...
+```
+
 ### Question 1 (e) [8 Marks]
 
 Explain your understanding of the following code:
@@ -174,7 +186,11 @@ switch(letter)
 //...
 ```
 
-### **Q 1 (f)**	**[3 Marks]**
+#### Question 1 (e) Answer
+
+The code is a switch statement that checks the value of the variable `letter`. If `letter` is equal to any of the characters `'a'`, `'e'`, `'i'`, `'o'`, `'u'`, `'A'`, `'E'`, `'I'`, `'O'`, or `'U'`, then the code prints "Vowel". If `letter` is not equal to any of those characters, then the code prints "Consonant".
+
+### Question 1 (f) [3 Marks]
 
 Referring to the code below, what will be the output of the following for loop?
 
@@ -185,15 +201,30 @@ for(int i=0; i < 10;  i++)
 //...
 ```
 
+#### Question 1 (f) Answer
 
-**Q 1 (g) 									    [4 Marks]**
+```output
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+```
+
+### Question 1 (g) [4 Marks]
 
 What are nested loops?
 
+#### Question 1 (g) Answer
 
+Nested loops are loops that are contained within another loop. The inner loop is executed for each iteration of the outer loop.
 
-**Q 1 (h)								              [8 Marks]**
-
+### Question 1 (h) [8 Marks]
 
 Write a nested for loop to achieve the following output.
 
@@ -205,12 +236,22 @@ Write a nested for loop to achieve the following output.
 1 2 3 4 5
 ```
 
+#### Question 1 (h) Answer
+
+```java
+//...
+for (int lineNumber = 1; lineNumber <= 5; lineNumber++) {
+    for (int number = 1; number <= lineNumber; number++) {
+        System.out.print(number + " ");
+    }
+    System.out.println();
+}
+//..
+```
+
 ## Question 2 (Total Marks 30)
 
-
-
-## ***QUESTION 2	[TOTAL MARKS: 30]***
-### **Q 2(a)**	
+### Question 2(a) [8 Marks]
 
 Tax is charged as a percentage of your income. The percentage that you pay depends on the amount of your income. The first part of your income, up to a certain amount, is taxed at 20%.
 
