@@ -1,18 +1,11 @@
-﻿## ![](Aspose.Words.1986235a-77b1-4b97-9ec4-b6a3cecb24b7.001.jpeg)
-
-
-
-
-
-prog06041-prog-fund
-
+﻿
 # **LIMERICK INSTITUTE OF TECHNOLOGY**
 
 **WINTER** **EXAMINATIONS** **2019/2020**
 
+**MODULE:** PROG06041-Prog Fund
 
-**MODULE:**			PROG06041-Prog Fund
-### **PROGRAMME(S):**	
+## **PROGRAMME(S):**
 
 |LC\_KISYM\_KMY|Bachelor of Science (Honours) Internet Systems Development|
 | :- | :- |
@@ -20,7 +13,8 @@ prog06041-prog-fund
 |LC\_KISYM\_IMY|Higher Certificate in Science Internet Systems Development|
 |LC\_KIDMM\_KMY|Bachelor of Science (Honours) Interactive Digital Media|
 |||
-**YEAR OF STUDY:**		1
+
+**YEAR OF STUDY:** 1
 
 **EXAMINER(S):**
 
@@ -29,8 +23,7 @@ prog06041-prog-fund
 |Mary Ryan|(Internal)|
 |Dr. Irene Murtagh|<a name="_goback1"></a>(External)|
 
-
-**TIME ALLOWED:		2 hours + (10 mins reading time)**
+**TIME ALLOWED:		2 hours + (10 mins reading time)**  
 
 **INSTRUCTIONS:		1.**	Answer All Questions
 
@@ -43,15 +36,9 @@ prog06041-prog-fund
 
 `		`which	questions have been attempted.
 
-
-
-
-
 **PLEASE DO NOT TURN OVER THIS PAGE UNTIL YOU ARE INSTRUCTED TO DO SO.**
 
 The use of programmable or text storing calculators is expressly forbidden.
-
-
 
 ***There are no additional requirements for this paper.***
 
@@ -99,18 +86,35 @@ for(int number = 0; number < limit; number++)
 //...
 ```
 
-
-**….**
-
-**….**
-### **Q 1 (b)	[4 Marks]**
+### Question 1 (b) [4 Marks]
 
 In Java define what is meant by an arithmetic operator.
+
+#### Question 1 (b) Answer
+
+An arithmetic operator is a mathematical function that takes two operands and performs a calculation on them. The standard arithmetic operators are addition, subtraction, multiplication, and division.
+
+### Question 1 (c) [4 Marks]
+
+What will be the output from the following Java program
+
+```java
+class Increment 
+{
+    public static void main(String args[])
+    {
+        int var1 = 1 + 5; 
+        int var2 = var1 / 4;
+        int var3 = 1 + 5;
+        int var4 = var3 % 4;
+        System.out.print(var2 + " " + var4);
+    }
+}
+```
 
 ### **Q 1 (c)	 [4 Marks]**
 **									
 
-What will be the output from the following Java program
 
 |<p>1. **class increment** </p><p>2. `    `**{**</p><p>3. `        `**public static void main(String args[])**</p><p>4. `        `**{**</p><p>5. `            `**int var1 = 1 + 5;** </p><p>6. `            `**int var2 = var1 / 4;**</p><p>7. `            `**int var3 = 1 + 5;**</p><p>8. `            `**int var4 = var3 % 4;**</p><p>9. `            `**System.out.print(var2 + " " + var4);**</p><p>10. `         `**}**</p>|
 | - |
