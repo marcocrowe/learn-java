@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Topic-02.01-Variables" />
+        <module name="Topic-07.04-ArrayExercise" />
+        <module name="Topic-08.01-Methods" />
+        <module name="Topic-07.04-NationalLotteryExercise" />
+        <module name="Topic-02.03-Inputs" />
+        <module name="Topic-03.01-Operators" />
+        <module name="Topic-06.02-Loops" />
+        <module name="Topic-07.01-Arrays" />
+        <module name="Topic-01.01-HelloWorld" />
+        <module name="Topic-05.01-Switch" />
+        <module name="Topic-09.01-Objects" />
+        <module name="Topic-02.02-VariableDataTypes" />
+        <module name="Topic-07.02-SortingArrays" />
+        <module name="Topic-06.01-Loops" />
+        <module name="Topic-04.01-IfElse" />
+        <module name="Topic-07.03-MultidimensionalArrays" />
+        <module name="Topic-03.02-RelationalOperators" />
+        <module name="Topic-01.02-MoreHelloWorlds" />
+        <module name="Topic-10.02-TypingTutorExercise" />
+        <module name="Topic-03.03-BooleanOperators" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LearnToCode.java" target="16" />
+      <module name="Topic-01.01-HelloWorld" target="16" />
+      <module name="Topic-01.02-MoreHelloWorlds" target="16" />
+      <module name="Topic-02.01-Variables" target="16" />
+      <module name="Topic-02.02-VariableDataTypes" target="16" />
+      <module name="Topic-02.03-Inputs" target="16" />
+      <module name="Topic-03.01-Operators" target="16" />
+      <module name="Topic-03.02-RelationalOperators" target="16" />
+      <module name="Topic-03.03-BooleanOperators" target="16" />
+      <module name="Topic-04.01-IfElse" target="16" />
+      <module name="Topic-05.01-Switch" target="16" />
+      <module name="Topic-06.01-Loops" target="16" />
+      <module name="Topic-06.02-Loops" target="16" />
+      <module name="Topic-07.01-Arrays" target="16" />
+      <module name="Topic-07.02-SortingArrays" target="16" />
+      <module name="Topic-07.03-MultidimensionalArrays" target="16" />
+      <module name="Topic-07.04-ArrayExercise" target="16" />
+      <module name="Topic-07.04-NationalLotteryExercise" target="16" />
+      <module name="Topic-08.01-Methods" target="16" />
+      <module name="Topic-09.01-Objects" target="16" />
+      <module name="Topic-10.02-TypingTutorExercise" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

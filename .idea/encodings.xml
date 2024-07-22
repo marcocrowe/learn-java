@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Topic-01.01-HelloWorld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-01.01-HelloWorld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-01.02-MoreHelloWorlds/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-01.02-MoreHelloWorlds/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-02.01-Variables/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-02.01-Variables/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-02.02-VariableDataTypes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-02.02-VariableDataTypes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-02.03-Inputs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-02.03-Inputs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-03.01-Operators/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-03.01-Operators/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-03.02-RelationalOperators/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-03.02-RelationalOperators/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-03.03-BooleanOperators/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-03.03-BooleanOperators/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-04.01-IfElse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-04.01-IfElse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-05.01-Switch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-05.01-Switch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-06.01-Loops/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-06.01-Loops/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-06.02-Loops/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-06.02-Loops/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.01-Arrays/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.01-Arrays/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.02-SortingArrays/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.02-SortingArrays/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.03-MultidimensionalArrays/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.03-MultidimensionalArrays/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.04-ArrayExercise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.04-ArrayExercise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.04-NationalLotteryExercise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-07.04-NationalLotteryExercise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-08.01-Methods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-08.01-Methods/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-09.01-Objects/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-09.01-Objects/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-10.02-TypingTutorExercise/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Topic-10.02-TypingTutorExercise/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

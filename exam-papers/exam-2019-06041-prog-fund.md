@@ -124,27 +124,66 @@ class Increment
 1 2
 ```
 
-### **Q 1 (d)	 [4 Marks]**
+### Question 1 (d) [4 Marks]
 
 What is the syntax of if/else statement?
 
-**									
-### **Q 1 (e)	 [8 Marks]**
+#### Question 1 (d) Answer
 
-**Explain your understanding of the following code:**
+### Question 1 (e) [8 Marks]
 
-|<p>`    `**switch**(letter)  </p><p>`   `{  </p><p>`        `**case** 'a':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'e':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'i':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'o':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'u':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'A':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'E':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'I':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'O':   </p><p>`            `System.out.println("Vowel");  </p><p>`            `**break**;  </p><p>`        `**case** 'U':   </p><p>`            `System.out.println("Vowel");  </p><p>`           `**break**;  </p><p>`        `**default**:   </p><p>`            `System.out.println("Consonant");  </p>|
-| :- |
+Explain your understanding of the following code:
+
+```java
+//...
+switch(letter)
+{
+    case 'a':
+        System.out.println("Vowel");  
+        break;  
+    case 'e':   
+        System.out.println("Vowel");  
+        break;  
+    case 'i':   
+        System.out.println("Vowel");  
+        break;  
+    case 'o':   
+        System.out.println("Vowel");  
+        break;  
+    case 'u':   
+        System.out.println("Vowel");  
+        break;  
+    case 'A':   
+        System.out.println("Vowel");  
+        break;  
+    case 'E':   
+        System.out.println("Vowel");  
+        break;  
+    case 'I':   
+        System.out.println("Vowel");  
+        break;  
+    case 'O':   
+        System.out.println("Vowel");  
+        break;  
+    case 'U':   
+        System.out.println("Vowel");  
+        break;  
+    default:   
+        System.out.println("Consonant");
+}
+//...
+```
 
 ### **Q 1 (f)**	**[3 Marks]**
 
 Referring to the code below, what will be the output of the following for loop?
 
-
+```java
+//...
 for(int i=0; i < 10;  i++)
-
-
-System.out.println(i \* i);
+    System.out.println(i * i);
+//...
+```
 
 
 **Q 1 (g) 									    [4 Marks]**
@@ -158,21 +197,15 @@ What are nested loops?
 
 Write a nested for loop to achieve the following output.
 
+```out
 1
-
 1 2
-
 1 2 3
-
 1 2 3 4
-
 1 2 3 4 5
-**
+```
 
-
-**[End of Question 1]**
-##
-##
+## Question 2 (Total Marks 30)
 
 
 

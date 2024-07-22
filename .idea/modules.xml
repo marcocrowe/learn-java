@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LearnToCode.java.iml" filepath="$PROJECT_DIR$/.idea/LearnToCode.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-01.01-HelloWorld/Topic-01.01-HelloWorld.iml" filepath="$PROJECT_DIR$/Topic-01.01-HelloWorld/Topic-01.01-HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-01.02-MoreHelloWorlds/Topic-01.02-MoreHelloWorlds.iml" filepath="$PROJECT_DIR$/Topic-01.02-MoreHelloWorlds/Topic-01.02-MoreHelloWorlds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-02.01-Variables/Topic-02.01-Variables.iml" filepath="$PROJECT_DIR$/Topic-02.01-Variables/Topic-02.01-Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-02.02-VariableDataTypes/Topic-02.02-VariableDataTypes.iml" filepath="$PROJECT_DIR$/Topic-02.02-VariableDataTypes/Topic-02.02-VariableDataTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-02.03-Inputs/Topic-02.03-Inputs.iml" filepath="$PROJECT_DIR$/Topic-02.03-Inputs/Topic-02.03-Inputs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-03.01-Operators/Topic-03.01-Operators.iml" filepath="$PROJECT_DIR$/Topic-03.01-Operators/Topic-03.01-Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-03.02-RelationalOperators/Topic-03.02-RelationalOperators.iml" filepath="$PROJECT_DIR$/Topic-03.02-RelationalOperators/Topic-03.02-RelationalOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-03.03-BooleanOperators/Topic-03.03-BooleanOperators.iml" filepath="$PROJECT_DIR$/Topic-03.03-BooleanOperators/Topic-03.03-BooleanOperators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-04.01-IfElse/Topic-04.01-IfElse.iml" filepath="$PROJECT_DIR$/Topic-04.01-IfElse/Topic-04.01-IfElse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-05.01-Switch/Topic-05.01-Switch.iml" filepath="$PROJECT_DIR$/Topic-05.01-Switch/Topic-05.01-Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-06.01-Loops/Topic-06.01-Loops.iml" filepath="$PROJECT_DIR$/Topic-06.01-Loops/Topic-06.01-Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-06.02-Loops/Topic-06.02-Loops.iml" filepath="$PROJECT_DIR$/Topic-06.02-Loops/Topic-06.02-Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-07.01-Arrays/Topic-07.01-Arrays.iml" filepath="$PROJECT_DIR$/Topic-07.01-Arrays/Topic-07.01-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-07.02-SortingArrays/Topic-07.02-SortingArrays.iml" filepath="$PROJECT_DIR$/Topic-07.02-SortingArrays/Topic-07.02-SortingArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-07.03-MultidimensionalArrays/Topic-07.03-MultidimensionalArrays.iml" filepath="$PROJECT_DIR$/Topic-07.03-MultidimensionalArrays/Topic-07.03-MultidimensionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-07.04-ArrayExercise/Topic-07.04-ArrayExercise.iml" filepath="$PROJECT_DIR$/Topic-07.04-ArrayExercise/Topic-07.04-ArrayExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-07.04-NationalLotteryExercise/Topic-07.04-NationalLotteryExercise.iml" filepath="$PROJECT_DIR$/Topic-07.04-NationalLotteryExercise/Topic-07.04-NationalLotteryExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-08.01-Methods/Topic-08.01-Methods.iml" filepath="$PROJECT_DIR$/Topic-08.01-Methods/Topic-08.01-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-09.01-Objects/Topic-09.01-Objects.iml" filepath="$PROJECT_DIR$/Topic-09.01-Objects/Topic-09.01-Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topic-10.02-TypingTutorExercise/Topic-10.02-TypingTutorExercise.iml" filepath="$PROJECT_DIR$/Topic-10.02-TypingTutorExercise/Topic-10.02-TypingTutorExercise.iml" />
+    </modules>
+  </component>
+</project>
