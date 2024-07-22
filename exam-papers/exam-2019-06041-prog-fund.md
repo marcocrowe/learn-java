@@ -18,23 +18,19 @@
 
 **EXAMINER(S):**
 
-| Suzanne O Gorman  | (Internal)                        |
-|:------------------|:----------------------------------|
-| Mary Ryan         | (Internal)                        |
-| Dr. Irene Murtagh | <a name="_goback1"></a>(External) |
+| Suzanne O Gorman  | (Internal) |
+|:------------------|:-----------|
+| Mary Ryan         | (Internal) |
+| Dr. Irene Murtagh | (External) |
 
-**TIME ALLOWED:		2 hours + (10 mins reading time)**  
+**TIME ALLOWED: 2 hours + (10 mins reading time)**  
 
-**INSTRUCTIONS:		1.**	Answer All Questions
+INSTRUCTIONS:  
 
+1. Answer All Questions
 2. Question 1 carries 40 Marks
-2. All other questions carry equal marks (30 Marks   
-
-`	`each)
-
-2. Indicate clearly on the front of the answer book
-
-`		`which	questions have been attempted.
+3. All other questions carry equal marks (30 Marks each)
+4. Indicate clearly on the front of the answer book which questions have been attempted.
 
 **PLEASE DO NOT TURN OVER THIS PAGE UNTIL YOU ARE INSTRUCTED TO DO SO.**
 
@@ -265,11 +261,11 @@ The standard rate band for a single taxpayer is €35,300.
 
 This means that the first €35,300 is taxed at the standard rate of tax, 20%, and the remainder (€4,700) is taxed at the higher rate of tax, 40%.
 
-| Calculation    | Amount |
-|:---------------|-------:|
-| €35,300 x 20%  | €7,060 |
-| €4,700 x 40%   | €1,880 |
-| Total          | €8,940 |
+| Calculation   | Amount |
+|:--------------|-------:|
+| €35,300 x 20% | €7,060 |
+| €4,700 x 40%  | €1,880 |
+| Total         | €8,940 |
 
 You are required to write a program that inputs the **income** for a single person from the keyboard.
 
@@ -293,11 +289,11 @@ You are required to write a program that calculates the CO2 emissions in pounds 
 
 ### Question 3(b) [14 Marks]
 
-Firstly, you must enter the **model\_of \_car** (ie Opel Insignia), the  **number\_of\_miles** driven by the motorist per week and the fuel efficiency **(mpg)** of that vehicle **(miles travelled per gallon  ie** **53.3mpg)**
+Firstly, you must enter the `model_of_car` (ie Opel Insignia), the  `number_of_miles` driven by the motorist per week and the fuel efficiency **(mpg)** of that vehicle **(miles travelled per gallon  ie** **53.3mpg)**
 
 **Formula:**  
 
-**CO<sub>2</sub> emissions in pounds =** ((number of miles driven per week × weeks in a year) / fuel efficiency per vehicle(miles travelled per gallon) × pounds of CO<sub>2</sub> emitted per gallon × emissions of greenhouse gases other than CO<sub>2</sub>  **where :**
+**CO<sub>2</sub> emissions in pounds =** (number of miles driven per week × weeks in a year) / fuel efficiency per vehicle(miles travelled per gallon) × pounds of CO<sub>2</sub> emitted per gallon × emissions of greenhouse gases other than CO<sub>2</sub>  **where :**
 
 Pounds of CO<sub>2</sub> emitted per gallon = 19.4  
 Emissions of greenhouse gases other than CO<sub>2</sub> = (100 / 95)
