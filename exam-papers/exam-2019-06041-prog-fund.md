@@ -112,12 +112,18 @@ class Increment
 }
 ```
 
-### **Q 1 (c)	 [4 Marks]**
-**									
+#### Question 1 (c) Answer
 
+`int var1 = 1 + 5` results in `var1` being assigned the value `6`.
+`int var2 = var1 / 4` results in `var2` being assigned the value `1` because `var1 / 4` is integer division. Integer division truncates the decimal part of the result.
+`int var3 = 1 + 5` results in `var3` being assigned the value `6`.
+`int var4 = var3 % 4` results in `var4` being assigned the value `2` because `var3 % 4` is the remainder of the division of `var3` by `4`.
+`System.out.print(var2 + " " + var4)` prints `1 2` because `var2 + " " + var4` concatenates the values of `var2` and `var4` with a space between them.
 
-|<p>1. **class increment** </p><p>2. `    `**{**</p><p>3. `        `**public static void main(String args[])**</p><p>4. `        `**{**</p><p>5. `            `**int var1 = 1 + 5;** </p><p>6. `            `**int var2 = var1 / 4;**</p><p>7. `            `**int var3 = 1 + 5;**</p><p>8. `            `**int var4 = var3 % 4;**</p><p>9. `            `**System.out.print(var2 + " " + var4);**</p><p>10. `         `**}**</p>|
-| - |
+```output
+1 2
+```
+
 ### **Q 1 (d)	 [4 Marks]**
 
 What is the syntax of if/else statement?
