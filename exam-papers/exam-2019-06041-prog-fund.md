@@ -7,21 +7,21 @@
 
 ## **PROGRAMME(S):**
 
-|LC\_KISYM\_KMY|Bachelor of Science (Honours) Internet Systems Development|
-| :- | :- |
-|LC\_KISYM\_JMY|Bachelor of Science Internet Systems Development|
-|LC\_KISYM\_IMY|Higher Certificate in Science Internet Systems Development|
-|LC\_KIDMM\_KMY|Bachelor of Science (Honours) Interactive Digital Media|
-|||
+| LC\_KISYM\_KMY | Bachelor of Science (Honours) Internet Systems Development |
+|:---------------|:-----------------------------------------------------------|
+| LC\_KISYM\_JMY | Bachelor of Science Internet Systems Development           |
+| LC\_KISYM\_IMY | Higher Certificate in Science Internet Systems Development |
+| LC\_KIDMM\_KMY | Bachelor of Science (Honours) Interactive Digital Media    |
+|                |                                                            |
 
 **YEAR OF STUDY:** 1
 
 **EXAMINER(S):**
 
-|Suzanne O Gorman|(Internal)|
-| :- | :- |
-|Mary Ryan|(Internal)|
-|Dr. Irene Murtagh|<a name="_goback1"></a>(External)|
+| Suzanne O Gorman  | (Internal)                        |
+|:------------------|:----------------------------------|
+| Mary Ryan         | (Internal)                        |
+| Dr. Irene Murtagh | <a name="_goback1"></a>(External) |
 
 **TIME ALLOWED:		2 hours + (10 mins reading time)**  
 
@@ -251,7 +251,7 @@ for (int lineNumber = 1; lineNumber <= 5; lineNumber++) {
 
 ## Question 2 (Total Marks 30)
 
-### Question 2(a) [8 Marks]
+### Question 2(a) [12 Marks]
 
 Tax is charged as a percentage of your income. The percentage that you pay depends on the amount of your income. The first part of your income, up to a certain amount, is taxed at 20%.
 
@@ -259,73 +259,49 @@ The standard rate cut-off point for a single person is €35,300 and is taxed at
 
 The remainder of your income is taxed at the *higher rate of tax*, 40% in 2019.
 
-|<p>For example:</p><p>A single taxpayer who earns €40,000 a year will have their tax calculated as follows:</p><p>The standard rate band for a single taxpayer is €35,300.</p><p><br>This means that the first €35,300 is taxed at the standard rate of tax, 20%, and the</p><p>` `remainder (€4,700) is taxed at the higher rate of tax, 40%.</p><p><br>€35,300 x 20% = €7,060</p><p><br>€4,700 x 40% =    €1,880<br>Total = €8,940</p>|
-| :- |
+A single taxpayer who earns €40,000 a year will have their tax calculated as follows:
 
-You are required to write a program that inputs the **income** for a single person from the keyboard. 
+The standard rate band for a single taxpayer is €35,300.
 
-`										    `**[8 Marks]**
+This means that the first €35,300 is taxed at the standard rate of tax, 20%, and the remainder (€4,700) is taxed at the higher rate of tax, 40%.
+
+| Calculation    | Amount |
+|:---------------|-------:|
+| €35,300 x 20%  | €7,060 |
+| €4,700 x 40%   | €1,880 |
+| Total          | €8,940 |
+
+You are required to write a program that inputs the **income** for a single person from the keyboard.
 
 Your program must then calculate and displays the **tax** due on that **income**.
 
-`										  `**[12 Marks]**
+#### Question 2(a) Answer
 
+#### Question 2(b) [8 Marks]
 
-
-
-
-
-
-
-
-
-### **Q 2(b)	[8 Marks]**
-
-Modify the program from part **(a)** so that the user can enter several **income**
-
-amounts and get the **tax** due on each. 
+Modify the program from part **(a)** so that the user can enter several**income** amounts and get the **tax** due on each.
 
 The user can stop the program by entering 0 for **income**
 
-**[End of Question 2]**
-## ***QUESTION 3	[TOTAL MARKS: 30]***
-###
-### **Q 3**	
-### A carbon footprint is historically defined as the total emissions caused by an individual, event, organization, or product, expressed as carbon dioxide equivalent. 
+### Question 3 (Total Marks 30)
 
-### You are required to write a program that calculates the CO2 emissions in pounds for your household motor vehicle using the formula given below:
-`										  `**[8 Marks]**
+### Question 3(a) [8 Marks]
 
-Firstly, you must enter the **model\_of \_car** (ie Opel Insignia), the  **number\_of\_miles** driven by the motorist per week and the fuel efficiency **(mpg)** of that vehicle **(miles travelled per gallon  ie** **53.3mpg)** 						
+A carbon footprint is historically defined as the total emissions caused by an individual, event, organization, or product, expressed as carbon dioxide equivalent.
 
-`  										 `**[14 Marks]**
+You are required to write a program that calculates the CO2 emissions in pounds for your household motor vehicle using the formula given below:
 
-**Formula:**
-### **CO<sub>2</sub> emissions in pounds =** ((number of miles driven per week × weeks in a year) / fuel efficiency per vehicle(miles travelled per gallon) × pounds of CO<sub>2</sub> emitted per gallon × emissions of greenhouse gases other than CO<sub>2</sub>
-### **where :**
-###
-### Pounds of CO<sub>2</sub> emitted per gallon = 19.4
-###
-### Emissions of greenhouse gases other than CO<sub>2</sub> = (100 / 95)
+### Question 3(b) [14 Marks]
 
-**Your program must display the model of car along with the CO2 emmissions for that vehicle formatted to 1 place of decimal**				
+Firstly, you must enter the **model\_of \_car** (ie Opel Insignia), the  **number\_of\_miles** driven by the motorist per week and the fuel efficiency **(mpg)** of that vehicle **(miles travelled per gallon  ie** **53.3mpg)**
 
-` 										   `**[8 Marks]**
-###
-###			
-##
-##
-## ***[End of Question 3]***
+**Formula:**  
 
+**CO<sub>2</sub> emissions in pounds =** ((number of miles driven per week × weeks in a year) / fuel efficiency per vehicle(miles travelled per gallon) × pounds of CO<sub>2</sub> emitted per gallon × emissions of greenhouse gases other than CO<sub>2</sub>  **where :**
 
+Pounds of CO<sub>2</sub> emitted per gallon = 19.4  
+Emissions of greenhouse gases other than CO<sub>2</sub> = (100 / 95)
 
+### Question 3(c) [8 Marks]
 
-
-***[END OF EXAM]***
--------------------
-
-PROG06041 – Prog Fund
-
-Winter Examinations 2019/2020				 Page 7 of 7
-
-
+Your program must display the model of car along with the CO2 emissions for that vehicle formatted to 1 place of decimal
