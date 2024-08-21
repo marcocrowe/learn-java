@@ -289,7 +289,7 @@ You are required to write a program that calculates the CO2 emissions in pounds 
 
 ### Question 3(b) [14 Marks]
 
-Firstly, you must enter the `model_of_car` (ie Opel Insignia), the  `number_of_miles` driven by the motorist per week and the fuel efficiency **(mpg)** of that vehicle **(miles travelled per gallon  ie** **53.3mpg)**
+Firstly, you must enter the `modelOfCar` (ie Opel Insignia), the  `numberOfMiles` driven by the motorist per week and the fuel efficiency **(mpg)** of that vehicle **(miles travelled per gallon  ie** **53.3mpg)**
 
 **Formula:**  
 
