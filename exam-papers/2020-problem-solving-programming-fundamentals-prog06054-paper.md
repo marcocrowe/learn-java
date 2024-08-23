@@ -19,11 +19,11 @@ examArray[4] = examArray[0] * 2 + examArray[1];
 ### Answer
 
 ```text
+array0 = 3
 array1 = 3
-array2 = 3
-array3 = array1 - 4 = 3 - 4 = -1
-array4 = array1 * 4 = 3 * 4 = 12
-array5 = array1 * 2 + array2 = 3 * 2 + 3 = 9
+array2 = array0 - 4 = 3 - 4 = -1
+array3 = array0 * 4 = 3 * 4 = 12
+array4 = array0 * 2 + array2 = 3 * 2 + 3 = 9
 ```
 
 | Index     | 0 | 1 | 2  | 3  | 4 |
@@ -111,7 +111,7 @@ double[][] values =  {
                      }; 
 ```
 
-What is in `values[1][3]`?
+What is in `values[2][1]`?
 
 #### Answer 1.E.I
 
