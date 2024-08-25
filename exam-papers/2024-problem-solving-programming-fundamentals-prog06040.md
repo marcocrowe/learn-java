@@ -34,20 +34,33 @@ Ollscoil Teicneolaíochta na Sionainne: Lár Tíre Iarthar Láir
 Answer **All** Questions.  
 Answer all questions in your answer book.
 
----
+## Question 1 (Total Marks: 40)
 
-### Question 1  
+### Question 1
 
-**(Total Marks: 40)**
+In Java, how do you retrieve the **number of elements** in a 1D array called `exampleArray[]`?  
+*Write the statement to support your answer.*
 
-**(a) [5 Marks]**  
-In Java, how do you retrieve the **number of elements** in a 1D array called `ExampleArray[]`?  
-_Write the statement to support your answer._
+```java
+int numberOfElements = exampleArray.length;
+```
 
-**(b) [10 Marks]**  
+### Question 1.B (10 Marks)
+
 Write a Java **method** named `calculateAverage` that takes an array of integers as a parameter and returns the average of all the elements in the array.
 
-**(c) [3 Marks]**  
+```java
+public double calculateAverage(int[] array) {
+    int sum = 0;
+    for (int index = 0; index < array.length; index++) {
+        sum += array[index];
+    }
+    return (double) sum / array.length;
+}
+```
+
+### Question 1.C (3 Marks)
+
 Given the following 1D array:
 
 ```java
@@ -59,19 +72,53 @@ What is the value of `arrayOfNumbers[2]`?
 **(d) [7 Marks]**  
 Write a `for` loop structure to print out every element of `arrayOfNumbers[1]` in the previous question.
 
-**(e) [5 Marks]**  
+### Question 1.E (5 Marks)
+
 What is the advantage of using **Binary Search** over **Linear Search** in arrays?
 
-**(f) [10 Marks]**  
+### Answer 1.E
+
+Binary Search is more efficient than Linear Search because it has a time complexity of $O(\log_2 n)$ compared to Linear Search with a time complexity of $O(n)$.
+
+### Question 1.F (10 Marks)
+
 Given the method definition below, **complete the code** for the BubbleSort method:
 
+Online Compiler: [Bubble Sort](https://www.onlinegdb.com/online_java_compiler)
+
 ```java
-public void bubbleSort(int b[]) {
-    // for loop no. of passes
-    // for loop each element
-    // one comparison
-    // one swap
-    ****Your Code Here*****
+public Class BubbleSortExample
+{
+    public static void main(String[] args)
+    {
+        int[] array = {23, 41, 25, 36, 3, 67, 72, 88};
+        system.out.println("Original Array: ");
+        printArray(array);
+        bubbleSort(array);
+        System.out.println("Sorted Array: ");
+        printArray(array);
+    }
+    public static void bubbleSort(int array[]) {
+        boolean isSorted = false;
+        for(int pass = 1; pass <= array.length - 1 && !isSorted; pass++) {
+            isSorted = true;
+            for(int index = 0; index < array.length - pass; index++) {
+                if(array[index] > array[index + 1]) {
+                    int lhsCopy = array[index];
+                    array[index] = array[index + 1];
+                    array[index + 1] = lhsCopy;
+
+                    isSorted = false;
+                }
+            }
+        }
+    }
+    public static void printArray(int array[]) {
+        for(int index = 0; index < array.length; index++) {
+            System.out.print(array[index] + " ");
+        }
+        System.out.println();
+    }
 }
 ```
 
