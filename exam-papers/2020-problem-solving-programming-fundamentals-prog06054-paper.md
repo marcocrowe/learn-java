@@ -165,7 +165,7 @@ items[1][2] = 77;
 
 ### Question 1.F (8 Marks)
 
-Given: 
+Given:
 
 ```java
 int [][] array2d = {
@@ -176,6 +176,29 @@ int [][] array2d = {
 ```
 
 Write a nested for loop to print out every element of `array2d`?
+
+### Answer 1.F
+
+```java
+for (int row = 0; row < array2d.length; row++) {
+    for (int col = 0; col < array2d[row].length; col++) {
+        System.out.print(array2d[row][col] + " ");
+    }
+    System.out.println();
+}
+```
+
+Alternatively, you can use the enhanced for loop:
+
+```java
+for (int[] row : array2d) {
+    for (int col : row) {
+        System.out.print(col + " ");
+    }
+    System.out.println();
+}
+```
+
 
 ## Question 2 [TOTAL MARKS: 30]
 
