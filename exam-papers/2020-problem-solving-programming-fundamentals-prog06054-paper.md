@@ -48,23 +48,23 @@ Two ways to pass arguments to methods are **call-by-value** and **call-by-refere
 **Example**:  
 
 ```java
-
-public Class Example
-{
-    static void main(String[] args) {
+public class Example {
+    public static void main(String[] args) {
         int number1 = 5;
         add10ByValue(number1);
-        System.out.println(number1); // Output: 5
+        System.out.println("number1 after add10ByValue: " + number1); // Output: 5
 
-        Integer number2 = 5;
-        add10ByReference(number2);
-        System.out.println(number2); // Output: 15
+        int[] number2InArray = {5}; // Access the first element using number2InArray[0]
+        add10ByReference(number2InArray);
+        System.out.println("number2 after add10ByReference: " + number2InArray[0]); // Output: 15
     }
+
     public static void add10ByValue(int number) {
         number += 10;
     }
-    public static  void add10ByReference(Integer number) {
-        number += 10;
+
+    public static void add10ByReference(int[] number) {
+        number[0] += 10;
     }
 }
 ```
