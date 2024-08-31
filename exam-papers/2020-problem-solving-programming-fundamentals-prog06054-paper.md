@@ -208,14 +208,14 @@ Complete the following.
 
 More generally, method declarations have the following components, in order:  
 
-1. Modifiers—such as public, private.  
-2. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_type.
-3. The  \_\_\_\_\_\_\_\_\_\_\_\_\_\_ name.
-4. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ list.
+1. The Modifiers. e.g. `public`, `private`.
+2. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_type.
+3. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_ name.
+4. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_ list.
 
 ### Answer 2.A
 
-1. Modifiers—such as public, private.
+1. The Modifiers. e.g. `public`, `private`.
 2. The **return** type.
 3. The **method** name.
 4. The **parameter** list.
@@ -229,6 +229,47 @@ There was a total of 12 candidates who contested the election in Limerick City.
 **You are required to write an application** that allows the user to enter 12 integer values representing the total number of votes per candidate & store these in array `electionResults[]`.
 
 Once the user has entered the votes for each candidate you must write and call a method called `calculateWinner` passing the array of votes which will calculate and display the candidate who has the overall majority(highest number of votes) and display the winning candidate number.
+
+### Answer 2.B
+
+The program is essentially a simple application that allows an input array and find the maximum value in the array. The following is the code to achieve this:
+
+```java
+//JOPionPane
+import javax.swing.JOptionPane;
+
+public class ElectionResults {
+    public static void main(String[] args) {
+        int[] electionResults = new int[12];
+
+        // Input the votes for each candidate
+        for (int index = 0; index < electionResults.length; index++) {
+            String input = JOptionPane.showInputDialog("Enter the votes for candidate " + (index + 1));
+            electionResults[index] = Integer.parseInt(input);
+        }
+
+        // Calculate and display the winner
+        int winnerIndex = calculateWinner(electionResults);
+        System.out.println("The winner is candidate " + (winnerIndex + 1) + " with " + maxVotes + " votes.");
+    }
+    /**
+     * Method to calculate the winner of the election
+     * @param votes The array of votes
+     * @return The candidate number of the winner
+     */
+    public static int calculateWinner(int[] votes) {
+        int maxVotes = votes[0];
+        int winnerIndex = 0;
+        for (int index = 1; index < votes.length; index++) {
+            if (votes[index] > maxVotes) {
+                maxVotes = votes[index];
+                winnerIndex = index;
+            }
+        }
+        return winnerIndex;
+
+```
+
 
 ## Question 3 [TOTAL MARKS: 30]
 
