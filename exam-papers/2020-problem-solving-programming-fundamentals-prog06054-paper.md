@@ -1,5 +1,9 @@
 ﻿
-# Paper
+# Problem Solving and Programming Fundamentals (PROG06054) Paper 2020 Summer
+
+## Paper Information
+
+Summer Examinations 2019/2020
 
 ## Question 1 [TOTAL MARKS: 40]
 
@@ -89,7 +93,7 @@ public static int positiveValues(int[] array) {
 /* ... */
 ```
 
-### Question 1(d) [4 Marks]
+### Question 1.D (4 Marks)
 
 Give a definition of a two-dimensional array.
 
@@ -97,9 +101,9 @@ Give a definition of a two-dimensional array.
 
 A two-dimensional array is an array of arrays. It is a collection of elements arranged in rows and columns. Each element in a two-dimensional array is identified by two indices.
 
-### Question 1(e) [9 Marks]
+### Question 1.E [Total Marks: 9]
 
-#### Question 1(e) (i) [3 Marks]
+#### Question 1.E.1 [3 Marks]
 
 Examine the following code segments and answer the corresponding question.  
 
@@ -123,75 +127,94 @@ What is in `values[2][1]`?
 
 **2** is the row index and *1* is the column index. The value at `values[2][1]` is `7.9`.
 
-
-#### Question 1.E.2 [3 Marks]
-
+#### Question 1.E.2 (3 Marks)
 
 ```java
-double[]  ] arrayOfNumbers =  { {1.2, 9.0}, ![](Aspose.Words.7fa8a7ba-c30d-4cac-b5c2-45122269fcef.003.png)
+double[][] arrayOfNumbers = {
+                                {1.2, 9.0},
+                                {9.2, 0.5, 0.0},
+                                {7.3, 7.9, 1.2, 3.9}
+                            };
+```
 
-`                                                     `{9.2, 0.5, 0.0}, 
+What is the value of arrayOfNumbers.length ?
 
-`                                                     `{7.3, 7.9, 1.2, 3.9} } ; 
+#### Answer 1.E.2
 
-**What is the value of arrayOfNumbers.length ? (iii)** 
+The value of `arrayOfNumbers.length` is 3. The length of an array is the number of elements in the array.
 
-int [ ] [ ]  items =  { {0, 1, 3, 4}, ![](Aspose.Words.7fa8a7ba-c30d-4cac-b5c2-45122269fcef.004.png)
+#### Question 1.E.3 (3 Marks)
 
-`                              `{4, 3, 99, 0, 7 },                               {3, 2} } ; 
+```java
+int[][] items = {
+                    {0, 1, 3, 4},
+                    {4, 3, 99, 0, 7 },
+                    {3, 2}
+                };
+```
 
-**Write a statement that replaces the 99 with 77.** 
+Write a statement that replaces the 99 with 77.
 
-**Q 1 (f)   [8 Marks]** Given: 
+#### Answer 1.E.3
 
-int [ ] [ ] array2d = {     { 0, 1, 3, 4}, ![](Aspose.Words.7fa8a7ba-c30d-4cac-b5c2-45122269fcef.005.png)
+```java
+items[1][2] = 77;
+```
 
-{4, 3, 99, 0, 7}, {3, 2} }; 
+### Question 1.F (8 Marks)
 
-Write a nested for loop to print out every element of ***array2d[ ] [ ]*** **?** 
+Given: 
 
-**[End of Question 1]** 
+```java
+int [][] array2d = {
+                        {0, 1, 3, 4},
+                        {4, 3, 99, 0, 7},
+                        {3, 2}
+                   };
+```
 
-**QUESTION 2       [TOTAL MARKS: 30]** 
+Write a nested for loop to print out every element of `array2d`?
 
-**Q 2(a)  [6 Marks]** 
+## Question 2 [TOTAL MARKS: 30]
 
-Complete the following. 
+### Question 2.A (6 Marks)
+
+Complete the following.
 
 More generally, method declarations have the following components, in order:  
 
 1. Modifiers—such as public, private.  
-2. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_type. 
-3. The  \_\_\_\_\_\_\_\_\_\_\_\_\_\_ name. 
-4. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ list. 
+2. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_type.
+3. The  \_\_\_\_\_\_\_\_\_\_\_\_\_\_ name.
+4. The \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ list.
 
-**Q 2(b)  [24 Marks]** The **Irish general election of 2020** took place on Saturday, 8th of February to elect 
+### Answer 2.A
 
-the[ lower house ](http://en.wikipedia.org/wiki/Lower_house)of[ Ireland's](http://en.wikipedia.org/wiki/Republic_of_Ireland) national[ parliament,](http://en.wikipedia.org/wiki/Parliament) the[ Oireachtas.](http://en.wikipedia.org/wiki/Oireachtas)  
+1. Modifiers—such as public, private.
+2. The **return** type.
+3. The **method** name.
+4. The **parameter** list.
+
+### Question 2.B [24 Marks]
+
+The **Irish general election of 2020** took place on Saturday, 8th of February to elect the [lower house](http://en.wikipedia.org/wiki/Lower_house) of [Ireland's](http://en.wikipedia.org/wiki/Republic_of_Ireland) national [parliament](http://en.wikipedia.org/wiki/Parliament) the [Oireachtas](http://en.wikipedia.org/wiki/Oireachtas).
 
 There was a total of 12 candidates who contested the election in Limerick City.  
 
-￿  **You are required to write an application** that allows the user to enter 12 integer values representing the total number of votes per candidate & store these in array **electionResults[ ].**  
+**You are required to write an application** that allows the user to enter 12 integer values representing the total number of votes per candidate & store these in array `electionResults[]`.
 
-Once the user has entered the votes for each candidate you must write and call a method called **calculateWinner** passing the array of votes which will calculate and display the candidate who has the overall majority(highest number of votes) and display the winning candidate number. 
+Once the user has entered the votes for each candidate you must write and call a method called `calculateWinner` passing the array of votes which will calculate and display the candidate who has the overall majority(highest number of votes) and display the winning candidate number.
 
-***[End of Question 2]*** 
+## Question 3 [TOTAL MARKS: 30]
 
-***QUESTION 3  [TOTAL MARKS: 30]* Q 3(a)  [8 Marks]** 
+### Question 3.A (8 Marks)
 
-List the advantages of a two-dimensional array over a one-dimensional array.** 
+List the advantages of a two-dimensional array over a one-dimensional array.
 
-**Q 3(b)  [22 Marks]** 
+### Question 3.B [22 Marks]
 
-Write a Java application **(CalculateAverageTemp)** that allows the user to enter the average temperature for each month of the 4 (Spring, Summer, Autumn and Winter) seasons in degrees celcius for 2019. 
+Write a Java application `CalculateAverageTemp` that allows the user to enter the average temperature for each month of the 4 (Spring, Summer, Autumn and Winter) seasons in degrees celsius for 2019.
 
-Using a nested for loop, store these values in a 2D array called  **TemperatureArray [ ][ ] .**  
+Using a nested for loop, store these values in a 2D array called `TemperatureArray[][]`.
 
-You must then calculate and display the **highest\_temperature** and also output the **average\_temperature** for 2019. 
-
-***[End of Question 3]*** 
-
-***[END OF EXAM]*** 
-PROG06040 – Prob Solving and Prog Fund 
-
-Summer Examinations 2019/2020  Page 5 of 5 
+You must then calculate and display the `highestTemperature` and also output the `averageTemperature` for 2019.
