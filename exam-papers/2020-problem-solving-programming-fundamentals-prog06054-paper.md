@@ -235,17 +235,16 @@ Once the user has entered the votes for each candidate you must write and call a
 The program is essentially a simple application that allows an input array and find the maximum value in the array. The following is the code to achieve this:
 
 ```java
-//JOPionPane
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class ElectionResults {
     public static void main(String[] args) {
         int[] electionResults = new int[12];
 
+        Scanner scanner = new Scanner(System.in);
         // Input the votes for each candidate
         for (int index = 0; index < electionResults.length; index++) {
-            String input = JOptionPane.showInputDialog("Enter the votes for candidate " + (index + 1));
-            electionResults[index] = Integer.parseInt(input);
+            electionResults[index] = Integer.parseInt(scanner.nextInt(););
         }
 
         // Calculate and display the winner
