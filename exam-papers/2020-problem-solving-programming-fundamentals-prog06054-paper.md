@@ -244,6 +244,7 @@ public class ElectionResults {
         Scanner scanner = new Scanner(System.in);
         // Input the votes for each candidate
         for (int index = 0; index < electionResults.length; index++) {
+            System.out.print("Enter the number of votes for candidate " + (index + 1) + ": ");
             electionResults[index] = scanner.nextInt();
         }
 
