@@ -115,13 +115,13 @@ What is in `values[2][1]`?
 
 #### Answer 1.E.I
 
-| Index |   0 |   1 |   2 |    3 |
-|-------|----:|----:|----:|-----:|
-| 0     | 1.2 | 9.0 | 3.2 |      |
-| 1     | 9.2 | 0.5 | 1.5 | -1.2 |
-| 2     | 7.3 | 7.9 | 4.8 |      |
+| Index |   0 |   *1* |   2 |    3 |
+|-------|----:|------:|----:|-----:|
+| 0     | 1.2 |   9.0 | 3.2 |      |
+| 1     | 9.2 |   0.5 | 1.5 | -1.2 |
+| **2** | 7.3 | `7.9` | 4.8 |      |
 
-`2` is the row index and `1` is the column index. The value at `values[2][1]` is `7.9`.
+**2** is the row index and *1* is the column index. The value at `values[2][1]` is `7.9`.
 
 
 #### Question 1.E.2 [3 Marks]
