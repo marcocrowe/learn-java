@@ -121,10 +121,14 @@ What is in `values[2][1]`?
 | 1     | 9.2 | 0.5 | 1.5 | -1.2 |
 | 2     | 7.3 | 7.9 | 4.8 |      |
 
+`2` is the row index and `1` is the column index. The value at `values[2][1]` is `7.9`.
 
-**What is in values [ 2 ] [ 1 ] ? (ii)** 
 
-double[ ] [ ] arrayOfNumbers =  { {1.2, 9.0}, ![](Aspose.Words.7fa8a7ba-c30d-4cac-b5c2-45122269fcef.003.png)
+#### Question 1.E.2 [3 Marks]
+
+
+```java
+double[]  ] arrayOfNumbers =  { {1.2, 9.0}, ![](Aspose.Words.7fa8a7ba-c30d-4cac-b5c2-45122269fcef.003.png)
 
 `                                                     `{9.2, 0.5, 0.0}, 
 
