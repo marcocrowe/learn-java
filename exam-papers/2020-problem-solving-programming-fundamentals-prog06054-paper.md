@@ -250,7 +250,7 @@ public class ElectionResults {
 
         // Calculate and display the winner
         int winnerIndex = calculateWinner(electionResults);
-        System.out.println("The winner is candidate " + (winnerIndex + 1) + " with " + maxVotes + " votes.");
+        System.out.println("The winner is candidate " + (winnerIndex + 1) + " with " + electionResults[winnerIndex] + " votes.");
     }
     /**
      * Method to calculate the winner of the election
@@ -267,15 +267,23 @@ public class ElectionResults {
             }
         }
         return winnerIndex;
-
+    }
+}
 ```
-
 
 ## Question 3 [TOTAL MARKS: 30]
 
 ### Question 3.A (8 Marks)
 
 List the advantages of a two-dimensional array over a one-dimensional array.
+
+### Answer 3.A
+
+1. **Organisation**: A two-dimensional array is a collection of elements arranged in rows and columns. This allows for better organisation of data.
+2. **Representation**: A two-dimensional array can represent data in a tabular form, which is more intuitive and easier to understand.
+3. **Efficiency**: A two-dimensional array can be more efficient in representing certain types of data, such as matrices.
+4. **Access**: A two-dimensional array allows for easy access to elements using two indices.
+5. **Flexibility**: A two-dimensional array can be used to represent complex data structures, such as tables, grids, and matrices.
 
 ### Question 3.B [22 Marks]
 
