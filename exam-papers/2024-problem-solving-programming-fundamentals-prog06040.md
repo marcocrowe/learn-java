@@ -124,9 +124,7 @@ public Class BubbleSortExample
 
 ---
 
-### Question 2  
-
-**(Total Marks: 30)**
+### Question 2 (Total Marks: 30)
 
 Write an **ALGORITHM** for the following program:
 
@@ -138,9 +136,7 @@ The program should write and call the method `getMonthName` to achieve the desir
 
 ---
 
-### Question 3  
-
-**(Total Marks: 40)**
+### Question 3 (Total Marks: 40)
 
 An employee's annual salary is to increase by a fixed percentage at the end of each year of his employment.
 
@@ -158,6 +154,3 @@ annual_Salary += (annual_Salary / 100) * percentage_Increase;
 
 You are also required to calculate and output the **total salaries** paid by the company for all its employees.
 
----
-
-This Markdown format captures the structure and content of the exam paper for easy readability and reference.
