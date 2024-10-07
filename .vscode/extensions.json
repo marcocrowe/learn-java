@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "jannisx11.batch-rename-extension",
+        "maptz.camelcasenavigation",
+        "wmaurer.change-case",
+        "shengchen.vscode-checkstyle",
+        "streetsidesoftware.code-spell-checker",
+        "tobiaswadseth.file-tree-generator",
+        "vscjava.vscode-java-pack",
+        "eamodio.gitlens",
+        "george-alisson.html-preview-vscode",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-footnotes",
+        "shd101wyy.markdown-preview-enhanced",
+        "bierner.markdown-mermaid",
+        "darkriszty.markdown-table-prettify",
+        "tomoyukim.vscode-mermaid-editor",
+        "cweijan.vscode-office",
+        "wraith13.open-in-github-desktop",
+        "sonarsource.sonarlint-vscode",
+        "gruntfuggly.todo-tree",
+        "vscode-icons-team.vscode-icons"
+    ]
+}
