@@ -26,7 +26,8 @@
 		<module>Topic-08.01-Methods</module>
 		<module>Topic-09.01-Objects</module>
 		<module>Topic-10.02-TypingTutorExercise</module>
-	</modules>
+        <module>Topic-11.02-InheritanceExample</module>
+    </modules>
 	<properties>
 		<maven.compiler.source>16</maven.compiler.source>
 		<maven.compiler.target>16</maven.compiler.target>
