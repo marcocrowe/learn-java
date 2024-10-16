@@ -1,64 +1,64 @@
 package com.markcrowe.learntocode;
 
+import java.util.Scanner;
 // ComputeChange.java: Break down an amount into smaller units
 import javax.swing.*;
 
 public class ComputeChange {
 
-	public static void main(String[] args) {
+  private static final int TWO_EURO = 200;
+  private static final int ONE_EURO = 100;
+  private static final int FIFTY_CENT = 50;
+  private static final int TWENTY_CENT = 20;
+  private static final int TEN_CENT = 10;
+  private static final int FIVE_CENT = 5;
+  private static final int TWO_CENT = 2;
+  private static final int ONE_CENT = 1;
 
-		double amount;
-		String input;
+  public static void main(String[] args) {
+    try (var consoleScanner = new Scanner(System.in);) {
+      // Receive the amount entered from the keyboard
+      String input = JOptionPane.showInputDialog("Please enter your amount");
+      double amount = Double.parseDouble(input);
 
-		// Receive the amount entered from the keyboard
-		input = JOptionPane.showInputDialog("Please enter your amount");
-		amount = Double.parseDouble(input);
+      int remainingAmount = (int) (amount * 100);
 
-		int remainingAmount = (int) (amount * 100);
+      // Calculate the number of each coin
+      int numOfTwoEuro = remainingAmount / TWO_EURO;
+      remainingAmount %= TWO_EURO;
 
-		// Find the number of two Euro in the remaining amount
-		int numOfTwoEuro = remainingAmount / 200;
-		remainingAmount = remainingAmount % 200;
+      int numOfOneEuro = remainingAmount / ONE_EURO;
+      remainingAmount %= ONE_EURO;
 
-		// Find the number of one Euro coins in the remaining amount
-		int numOfOneEuro = remainingAmount / 100;
-		remainingAmount = remainingAmount % 100;
+      int numOf50 = remainingAmount / FIFTY_CENT;
+      remainingAmount %= FIFTY_CENT;
 
-		// Find the number of 50's in the remaining amount
-		int numOf50 = remainingAmount / 50;
-		remainingAmount = remainingAmount % 50;
+      int numOf20 = remainingAmount / TWENTY_CENT;
+      remainingAmount %= TWENTY_CENT;
 
-		// Find the number of 20's in the remaining amount
-		int numOf20 = remainingAmount / 20;
-		remainingAmount = remainingAmount % 20;
+      int numOf10 = remainingAmount / TEN_CENT;
+      remainingAmount %= TEN_CENT;
 
-		// Find the number of 10's in the remaining amount
-		int numOf10 = remainingAmount / 10;
-		remainingAmount = remainingAmount % 10;
+      int numOf5 = remainingAmount / FIVE_CENT;
+      remainingAmount %= FIVE_CENT;
 
-		// Find the number of 5's in the remaining amount
-		int numOf5 = remainingAmount / 5;
-		remainingAmount = remainingAmount % 5;
+      int numOf2 = remainingAmount / TWO_CENT;
+      remainingAmount %= TWO_CENT;
 
-		// Find the number of 2's in the remaining amount
-		int numOf2 = remainingAmount / 2;
-		remainingAmount = remainingAmount % 2;
+      int numOf1 = remainingAmount;
 
-		// Find the number of 1's in the remaining amount
-		int numOf1 = remainingAmount;
+      // Display results
+      String output = "Your amount " + amount + " consists of ";
+      output += "\n" + numOfTwoEuro + "    2 Euro pieces";
+      output += "\n" + numOfOneEuro + "    1 Euro pieces";
+      output += "\n" + numOf50 + "    50 cent pieces";
+      output += "\n" + numOf20 + "    20 cent pieces";
+      output += "\n" + numOf10 + "    10 cent pieces";
+      output += "\n" + numOf5 + "     5 cent pieces";
+      output += "\n" + numOf2 + "     2 cent pieces";
+      output += "\n" + numOf1 + "     1 cent pieces";
 
-		// Display results
-		String output = "Your amount " + amount + " consists of ";
-		output += "\n" + numOfTwoEuro + "    2 Euro pieces";
-		output += "\n" + numOfOneEuro + "    1 Euro pieces";
-		output += "\n" + numOf50 + "    50 cent pieces";
-		output += "\n" + numOf20 + "    20 cent pieces";
-		output += "\n" + numOf10 + "    10 cent pieces";
-		output += "\n" + numOf5 + "     5 cent pieces";
-		output += "\n" + numOf2 + "     2 cent pieces";
-		output += "\n" + numOf1 + "     1 cent pieces";
-
-		JOptionPane.showMessageDialog(null, output);
-		System.exit(0);
-	}
+      System.out.println(output);
+    }
+  }
 }

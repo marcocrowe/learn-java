@@ -13,10 +13,17 @@ public class DeclareAnArrayExample
 	{
 		System.out.println("Declare Array Example.");
 
-		int[] numberArray;
+		@SuppressWarnings("unused")
+        int[] numberArray;
+		@SuppressWarnings("unused")
 		String[] textArray;
+		@SuppressWarnings("unused")
 		double[] numberArray2;
+		@SuppressWarnings("unused")
 		char[] characterArray;
+		@SuppressWarnings("unused")
 		boolean[] booleanArray;
+		@SuppressWarnings("unused")
+        Object[] objectArray;
 	}
 }

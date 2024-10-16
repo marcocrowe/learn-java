@@ -10,21 +10,15 @@ public class PrinterApplication {
 
         System.out.println("Select Printer Type: 1 for PaperPrinter, 2 for PDFPrinter, 3 for CloudPrinter");
         int printerType = scanner.nextInt();
-        Printer printer = null;
-
-        printer = getPrinter(printerType, scanner);
+        Printer printer = getPrinter(printerType, scanner);
         if (printer == null) return;
 
-        // Print using the selected printer
-        if (printer != null) {
-            printer.print();
-        }
+        printer.print();
 
         scanner.close();
     }
 
     private static Printer getPrinter(int printerType, Scanner scanner) {
-        Printer printer;
         switch (printerType) {
             case 1:
                 System.out.println("Enter Printer Name: ");
@@ -33,15 +27,13 @@ public class PrinterApplication {
                 String paperMode = scanner.next();
                 System.out.println("Number of pages: ");
                 int pages = scanner.nextInt();
-                printer = new PaperPrinter(printerName, paperMode.equals("bw") ? "Black and White" : "Colour", pages);
-                break;
+                return new PaperPrinter(printerName, paperMode.equals("bw") ? "Black and White" : "Colour", pages);
             case 2:
                 System.out.println("Enter file path to save PDF: ");
                 String filePath = scanner.next();
                 System.out.println("Print Colour or Black and White? (colour/bw): ");
                 String pdfMode = scanner.next();
-                printer = new PdfPrinter(filePath, pdfMode.equals("bw") ? "Black and White" : "Colour");
-                break;
+                return new PdfPrinter(filePath, pdfMode.equals("bw") ? "Black and White" : "Colour");
             case 3:
                 System.out.println("Enter Cloud Service Name (e.g., Google Cloud Print): ");
                 String cloudServiceName = scanner.next();
@@ -49,12 +41,11 @@ public class PrinterApplication {
                 String quality = scanner.next();
                 System.out.println("Number of pages: ");
                 int cloudPages = scanner.nextInt();
-                printer = new CloudPrinter(cloudServiceName, quality, cloudPages);
-                break;
+                return new CloudPrinter(cloudServiceName, quality, cloudPages);
+
             default:
                 System.out.println("Invalid printer selection");
                 return null;
         }
-        return printer;
     }
 }

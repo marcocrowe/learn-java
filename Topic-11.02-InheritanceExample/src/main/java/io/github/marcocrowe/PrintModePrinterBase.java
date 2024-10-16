@@ -6,4 +6,9 @@ public abstract class PrintModePrinterBase {
     public String getPrintMode() {return printMode;}
 
     public void setPrintMode(String printMode) {this.printMode = printMode;}
+
+    public void resetPaper()
+    {
+        //important
+    }
 }

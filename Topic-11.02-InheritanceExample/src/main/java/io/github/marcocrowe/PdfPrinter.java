@@ -22,4 +22,10 @@ public class PdfPrinter extends PrintModePrinterBase implements Printer {
     public void print() {
         System.out.println("Saving a PDF to " + filePath + " in " + getPrintMode());
     }
+
+    @Override
+    public void resetPaper()
+    {
+        super.resetPaper();
+    }
 }
