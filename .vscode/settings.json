@@ -2,6 +2,7 @@
 	"java.format.settings.url": ".vscode/java-formatter.xml",
 	"java.configuration.updateBuildConfiguration": "interactive",
 	"cSpell.words": [
+        "IntelliJ",
         "jdoodle",
         "println"
     ]
