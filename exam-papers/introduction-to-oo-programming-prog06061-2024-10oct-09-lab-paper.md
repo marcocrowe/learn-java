@@ -3,7 +3,7 @@
 
 **In-class Assessment – 10%**  
 
-- **Date**: Wednesday 9/10/24
+- **Date**: Wednesday October 9, 2024
 - **Time**: 4 pm – 6 pm
 - **Programme**: Computing – Mobile and Web
 - **Year**: 2
